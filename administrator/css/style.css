@@ -1,0 +1,195 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	background: #f1f1f1;
+	height: 100%;
+	font-family: arial;
+}
+header{
+	background-color: #FFC75B;
+	border-bottom: 2px solid #000;
+}
+header h1{
+	display: inline-block;
+	width: 35%;
+	font-size: 1em;
+	padding: 0.9em 1em;
+}
+.nameperfil{
+	font-size: 0.8em;
+	width: 30%;
+	display: inline-block;
+	color: #4A413B;
+}
+.top-menu{
+	display: inline-block;
+	width: 55%;
+	text-align: right;
+	padding: 0.5em 1em;
+}
+.top-menu a {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:11px;
+	padding:5px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.top-menu a:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.mainmenu{
+	width: 100;
+	text-align: center;
+	padding: 0.5em 1em;
+}
+.mainmenu a{
+	text-decoration: none;
+	padding: 0.5em 0.5em;
+	color: #B87A00;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+.mainmenu a:hover{
+	background: #2B4A6F;
+	color: #FFECAA;
+}
+main{
+	text-align:center;
+}
+.box-dashboard{
+	display: inline-block;
+	width: 20%;
+	background: #FFA900;
+	margin-bottom: 3px;
+}
+.box-dashboard:hover{
+	background: #7D7068;
+	color: #D4C7C0;
+}
+.box-dashboard h3{
+	padding: 2em 1em 0.2em 1em;
+}
+.box-dashboard p{
+	padding: 0em 1em 1.8em 1em;
+	font-size: 0.8em;
+}
+.c1{ background: #EB5700;}
+.c2{ background: #02B2C2;}
+.c3{ background: #FFCF00;}
+.c4{ background: #9AF400;}
+.c5{ background: #E52888;}
+.c6{ background: #C201C9;}
+.c7{ background: #00A94A;}
+.c8{ background: #95B200;}
+
+.modulo-servicios, .area_trabajo{
+	display: inline-block;
+	vertical-align: top;
+}
+.modulo-servicios{
+	width: 20%;
+	background: #CDAB00;
+}
+.area_trabajo{
+	width: 75%;
+	background: #DAD8D8;
+}
+.nav_modulo, .contenido_mod{
+	padding: 1em;
+}
+.nav_modulo a{
+	background: #092445;
+	padding: 1em;
+	color: #FFE251;
+	width: 90%;
+	display: block;
+	text-decoration: none;
+	margin-bottom: -0.5em;
+}
+.nav_modulo a:hover{
+	background: #7E96B3;
+	color: #FFE251;
+}
+.tablecud {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tablecud td, .tablecud th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tablecud tr:nth-child(even){background-color: #f2f2f2;}
+
+.tablecud tr:hover {background-color: #ddd;}
+
+.tablecud th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+  text-transform: uppercase;
+}
+form .contenedor-inputs input, select{
+	width: 70%;
+	margin-bottom: 20px;
+	height: 52px;
+	line-height: 52px;
+	font-size: 18px;
+	text-align: center;
+	border:1px solid #bbb;
+	border-radius: 6px;
+}
+form .btn-submit{
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border:none;
+	color: #fff;
+	background: #5e7de3;
+	border-radius: 3px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+form .btn-submit:hover{
+	background: rgba(94,125,227,.8);
+}
+footer{
+	background: #FFECAA;
+	color: #666;
+	text-align: center;
+}
+footer h6{
+	padding: 1em 0;
+}
