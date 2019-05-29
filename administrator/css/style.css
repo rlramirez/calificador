@@ -3,9 +3,21 @@
 	margin: 0;
 }
 html, body{
-	background: #333;
 	height: 100%;
 	font-family: arial;
+}
+.fisrtsidebar, .secondsidebar{
+	display: inline-block;
+	vertical-align: top;
+}
+.fisrtsidebar{
+	width: 20%;
+	height:100%;
+	background: #333;
+}
+.secondsidebar{
+	width: 75%;
+	background: #f3f3f3;
 }
 header{
 	background-color: #FFC75B;
@@ -16,6 +28,30 @@ header h1{
 	width: 35%;
 	font-size: 1em;
 	padding: 0.9em 1em;
+}
+.login{
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login-box{
+	background: #f2f2f2;
+	padding: 1em;
+	text-align: center;
+	border-radius: 2px;
+	display: block;
+}
+.login h4{
+	color: #4F4747;
+	display: block;
+	font-weight: bold;
+	padding: 0 0 1em 0;
 }
 .nameperfil{
 	font-size: 0.8em;
@@ -75,6 +111,7 @@ header h1{
 	color: #B87A00;
 	font-weight: bold;
 	font-size: 0.8em;
+	display: block;
 }
 .mainmenu a:hover{
 	background: #2B4A6F;
@@ -160,6 +197,7 @@ main{
   color: white;
   text-transform: uppercase;
 }
+
 form .contenedor-inputs input, select{
 	width: 70%;
 	margin-bottom: 20px;
@@ -181,6 +219,7 @@ form .btn-submit{
 	font-size: 16px;
 	cursor: pointer;
 	transition: .3s ease all;
+	width: 60%;
 }
 form .btn-submit:hover{
 	background: rgba(94,125,227,.8);
